@@ -7,7 +7,7 @@ CC = gcc
 # -Wall: Mostra todas as advertências (warnings)
 # -g:    Inclui informações de debug (para usar com gdb)
 # -std=c11: Usa o padrão C de 2011
-CFLAGS = -Wall -g -std=c11
+CFLAGS = -Wall -Wextra -g -std=c11
 
 # Nome do programa executável que queremos criar
 TARGET = calculadora
