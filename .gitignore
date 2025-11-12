@@ -1,0 +1,14 @@
+# Arquivos de objeto compilados
+*.o
+
+# O executável final gerado pelo Makefile
+calculadora
+*.exe
+
+# Pasta de configurações do VS Code
+.vscode/
+
+# Arquivos de sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
